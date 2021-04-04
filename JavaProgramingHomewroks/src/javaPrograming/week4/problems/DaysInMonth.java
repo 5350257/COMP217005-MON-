@@ -21,9 +21,9 @@ public class DaysInMonth {
 			days = 30;
 			break;
 		case 2:
-			if((years/4)==0 && years/100!=0) {
+			if((years%4)==0 && years%100!=0) {
 					days = 29;
-			}else if ((years/400)==0) {
+			}else if ((years%400)==0) {
 				days =29;
 			}else {
 				days = 28;

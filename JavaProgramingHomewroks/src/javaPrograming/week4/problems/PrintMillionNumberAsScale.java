@@ -8,11 +8,12 @@ public class PrintMillionNumberAsScale {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("1억 미만의 정수 :");
-		long num = sc.nextLong();
+		int num = sc.nextInt();
+		sc.close();
 		
-		while(num>100000000000L) {
+		while(num>100000000) {
 			System.out.println("1억 미만을 입력하라고");
-			num = sc.nextLong();
+			num = sc.nextInt();
 		}
 		
 		
@@ -23,14 +24,14 @@ public class PrintMillionNumberAsScale {
 		}
 		
 
-		long num1 = num%10000;
+		int num1 = num%10000;
 		if(num1/1000!=0) {
 			System.out.print((num1/1000)+"천 ");
 		}else if(num1/1000==1) {
 			System.out.print("천 ");
 		}
 
-		long num2 = num1%1000;
+		int num2 = num1%1000;
 		if(num2/100!=0) {
 			System.out.print((num2/100)+"백 ");
 		}else if(num2/100==1) {
@@ -38,7 +39,7 @@ public class PrintMillionNumberAsScale {
 		}
 		
 
-		long num3 = num2%100;
+		int num3 = num2%100;
 		if(num3/10!=0) {
 			System.out.print((num3/10)+"십 ");
 		}else if(num3/10==1) {
