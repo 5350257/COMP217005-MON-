@@ -26,7 +26,7 @@ public class HomeWorks1 {
 		double xy = Math.sqrt(Math.pow(x1 - x2, 2) )*Math.sqrt(Math.pow(y1 - y2, 2) );
 		double z = Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
 
-		System.out.println("===========계산 결과===========");
+		System.out.println("==========계산 결과==========");
 		System.out.printf("-둘레의 길이 : %.2f\n", round);
 		System.out.printf("-넓이 : %.2f \n",xy);
 		System.out.printf("-대각선의 길이 :%.2f\n", z);
