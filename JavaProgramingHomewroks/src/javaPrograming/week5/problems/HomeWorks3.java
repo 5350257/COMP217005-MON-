@@ -33,6 +33,7 @@ public class HomeWorks3 {
 }
 /*
 		//사용자로부터 예측값 입력받기: 일치할때까지
+		
 		while(true){
 			System.out.print("예측값: ");
 			usr = s.nextInt();

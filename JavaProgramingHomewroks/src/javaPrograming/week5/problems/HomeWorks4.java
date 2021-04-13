@@ -6,16 +6,16 @@ public class HomeWorks4 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String input;
+		char input;
 		do {
 			System.out.print("문자 : ");
-			input = sc.next();
+			input = sc.next().charAt(0);
 
-			if (!input.equals("Q") && !input.equals("q")) {
+			if (input!='Q' && input!='q') {
 				System.out.println("입력하신 문자는 \'" + input + "\'입니다.");
 			}
 
-		} while (!input.equals("Q") && !input.equals("q"));
+		} while (input!='Q' && input!='q');
 
 		System.out.println("프로그램을 종료합니다.");
 		sc.close();
