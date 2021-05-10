@@ -8,7 +8,7 @@ public class RandomClass{
 		
 		Random r = new Random();//난수 생성기를 만듦.
 		
-		/* (0<=x<n),, n은 괄호안의 숫자 */
+		/* nextInt만 가능(0<=x<n),, n은 괄호안의 숫자 */
 		
 		/* 랜덤 클래스를 이용하여 난수 생성 */
 		

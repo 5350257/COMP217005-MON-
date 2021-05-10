@@ -8,7 +8,7 @@ public class PrintArgsExample {
 		
 		//커맨드 라인에 인자가 없다면 사용법을 알리고 종료
 		if(args.length<2){
-			System.out.println("[사용법] java Args 정수1 정수2");
+			System.out.println("[사용법] java PrintArgsExample 정수1 정수2");
 			//프로그램 종료
 			System.exit(1);
 		}

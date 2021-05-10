@@ -15,7 +15,7 @@ public class ArrayExample {
 		System.out.print("학생 수 : ");
 		int x = sc.nextInt();
 		
-		// 학생 10명의 시력을 저장할 수 있는 배열 index = 0~99
+		// 학생 100명의 시력을 저장할 수 있는 배열 index = 0~99
 		double[] sight = new double[100];
 
 		// 학생 50명의 이름을 저장할 수 있는 배열 index = 0~49

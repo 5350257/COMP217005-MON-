@@ -40,10 +40,10 @@ public class Homework1{
 //		System.out.println("두번째 양의 정수 : " +num2);
 		
 		System.out.println();
-		System.out.printf("%-11s|%-11s|%-11s|%11s|\n" ,s1,s2,s3,s4);
-		System.out.printf("%-11s|%2$+11d|%2$#11o|%2$#11x|\n" ,s1+" "+1,num1);
-		System.out.printf("%-11s|%2$+11d|%2$#11o|%2$#11x|\n" ,s1+" "+2,num2);
-		System.out.printf("%-11s|%2$-+11d|%2$#-11o|%2$#-11x|\n" ,s5,result);
+		System.out.printf("%-11s|%-11s|%-11s|%11s|\n" ,"number","decimal","otcal","hexadecimal");
+		System.out.printf("%-11s|%2$+11d|%2$#11o|%2$#11x|\n" ,"number 1",num1);
+		System.out.printf("%-11s|%2$+11d|%2$#11o|%2$#11x|\n" ,"number 2",num2);
+		System.out.printf("%-11s|%2$-+11d|%2$#-11o|%2$#-11x|\n" ,"sum",result);
 		
 	}
 }

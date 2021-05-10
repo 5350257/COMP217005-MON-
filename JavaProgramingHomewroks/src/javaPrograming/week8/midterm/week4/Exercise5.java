@@ -1,17 +1,21 @@
-package javaPrograming.week4.examples_caseif;
+package javaPrograming.week8.midterm.week4;
 
 import java.util.*;
 
-public class WeekConverterVer2 {
+public class Exercise5 {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+
 		System.out.print("요일 (월 :0, 화 :1. .... 일:6) : ");
 		int num = sc.nextInt();
+		
 		System.out.print("x: ");
 		int x = sc.nextInt();
-		int result = (num + x) % 7;
 		
-
+		int result = (num + x) % 7;
+		sc.close();
+		
 		switch (result) {
 		case 0:
 			System.out.println(x + "일 후는 월요일입니다");
@@ -41,6 +45,6 @@ public class WeekConverterVer2 {
 			System.out.println(x + "일 후는 일요일입니다");
 			break;
 		}
-
 	}
+
 }

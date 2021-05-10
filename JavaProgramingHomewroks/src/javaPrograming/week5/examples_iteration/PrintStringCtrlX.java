@@ -26,11 +26,6 @@ public class PrintStringCtrlX {
 			System.out.println("[입력오류] b는 문자열의 길이 이하의 양의 정수만 유효합니다.");
 			System.out.print("b : ");
 			b = sc.nextInt();
-		}while(s.length()<a) {
-			
-			System.out.println("[입력오류] x는 문자열의 길이 이하의 양의 정수만 유효합니다.");
-			System.out.println("x : ");
-			a = sc.nextInt();
 		}
 		
 		String cs = s.substring(a-1, b);

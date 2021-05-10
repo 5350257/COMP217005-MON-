@@ -11,7 +11,7 @@ public class Calculator {
 		System.out.print("정수:");
 		int a = sc.nextInt();
 		
-//		System.out.println(toBinaryString(a));
+		System.out.println(Integer.toBinaryString(a));
 		
 		if(a>>>31==0) {
 			System.out.printf("%d는(은) 양수입니다. 이 수의 절댓값은 %d이고,\n\t절댓값을 4로 나눈 몫은 %d이고,\n\t\t나머지는 %d입니다.",a,a,a/4,a%4);
@@ -21,12 +21,5 @@ public class Calculator {
 		}
 	}
 
-//	public static String toBinaryString(int value) {
-//		String str = Integer.toBinaryString(value);
-//		while(str.length()<32) {
-//			str = "0"+ str;
-//		}
-//		return str;
-//	}
-//
+
 }
