@@ -22,7 +22,7 @@ public class Exercise7 {
 					System.out.print(j+", ");
 				}
 			}
-			System.out.println("\b\b ");
+			System.out.println("");
 		}
 		
 	}

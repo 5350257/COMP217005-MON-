@@ -26,10 +26,10 @@ public class middleExample {
  		}
  */
  
-/* 6 */ double[] arrd;
+/* 6 */ double[] arrDouble;
 		System.out.print("length : ");
 		int length = sc.nextInt();
-		arr = new double[length];
+		arrDouble = new double[length];
 
 /* 8 */ int[] arr1 = new int[10];
 		int[] arr2 = new int[10];

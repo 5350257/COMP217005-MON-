@@ -43,6 +43,7 @@ public class Exercise3 {
 				System.out.println();
 			}
 			break;
+			
 		case "사각형":
 			while (true) {
 				System.out.print("가로: ");
@@ -78,6 +79,7 @@ public class Exercise3 {
 				System.out.println();
 			}
 			break;
+			
 		case "다이아":
 			while (true) {
 				System.out.print("라인 수: ");

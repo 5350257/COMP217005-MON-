@@ -101,19 +101,19 @@ public class ArrayMethodExample {
 		arr[0] = c;
 	}
 
-	static void rotateRightRn(double[] arr, int n) {
-		n %= arr.length;
-		for (int i = 0; i < n; i++) {
-			rotateR1Arr(arr);
-		}
-	}
-
 	static void rotateL1Arr(double[] arr) {
 		double c = arr[0];
 		for (int i = 0; i < arr.length - 1; i++) {
 			arr[i] = arr[i + 1];
 		}
 		arr[arr.length - 1] = c;
+	}
+
+	static void rotateRightRn(double[] arr, int n) {
+		n %= arr.length;
+		for (int i = 0; i < n; i++) {
+			rotateR1Arr(arr);
+		}
 	}
 
 	static void rotateLeftRn(double[] arr, int n) {

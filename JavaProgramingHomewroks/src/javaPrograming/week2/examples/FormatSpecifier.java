@@ -17,7 +17,7 @@ public class FormatSpecifier {
 		
 		[플래그]
 		
-			# : 타입문자 '0','x' 앞에서만 진수 표현,
+			# : 타입문자 'o','x' 앞에서만 진수 표현,
 			+ : 부호 결정. 타입문자 d, f 앞에만 사용가능
 			- : 왼쪽 정렬, 너비가 있을때만 가능
 			0 : 
@@ -47,7 +47,7 @@ public class FormatSpecifier {
 		System.out.printf("정수 : %2$d, %2$#o, %2$#x\n",a,a,a);
 		//$ 인자 지정, 몇번 째 인자를 사용할지 정함
 		//d = decimal = 10진수 o = octal = 8진수 x=hexadecimal = 16진수
-		System.out.printf("e실수 : %e\n",100d);
+		System.out.printf("e실수 : %e\n",1000*d);
 		System.out.printf("실수 : %f\n",d);
 
 		

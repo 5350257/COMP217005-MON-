@@ -19,9 +19,9 @@ public class Exercise5 {
 				blank++;
 			if (word.equals(line.substring(i, i + wordL))) {
 				count++;
-				System.out.printf("%d번째, ", blank);
+				System.out.printf("%d번째, ", blank+1);
 			}
 		}
-		System.out.printf("\b\b 어절에서 %s가 검색되어, 총 %d회 검색 되었습니다.",word,count);
+		System.out.printf("어절에서 %s가 검색되어, 총 %d회 검색 되었습니다.",word,count);
 	}
 }
